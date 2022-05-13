@@ -1,6 +1,6 @@
 import React from "react";
 
-function List() {
+const List= () => {
   const tasks = [
     {
     id: 1,
