@@ -1,10 +1,10 @@
 import React from "react";
-import './style.scss';
+import style from './Button.module.scss';
 
 const Button = () => {
   return (
-    <button className="button">
-      Botão
+    <button className={style.button}>
+      Adicionar
     </button>
   )
 }
