@@ -1,6 +1,7 @@
 import React from "react";
+import './style.scss';
 
-const List= () => {
+const List = () => {
   const tasks = [
     {
     id: 1,
@@ -17,11 +18,11 @@ const List= () => {
   }];
 
   return (
-    <aside>
+    <aside className="task-list">
       <h2> Daily studies </h2>
       <ul>
         {tasks.map((item, id) => (
-          <li key={id}>
+          <li key={id} className="item">
             <h3> {item.task} </h3>
             <span> {item.duration} </span>
           </li>

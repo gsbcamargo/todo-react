@@ -1,12 +1,9 @@
 import React from "react";
+import './style.scss';
 
 const Button = () => {
-  const active = false;
-  const styles = {
-    backgroundColor: active ? 'green' : 'yellow'
-  }
   return (
-    <button style={styles}>
+    <button className="button">
       Botão
     </button>
   )
